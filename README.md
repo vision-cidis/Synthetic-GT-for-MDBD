@@ -5,10 +5,6 @@
 <div style="text-align:center"><img src='static/images/SynShapes_Show.png' width=800>
 </div>
 
-<!-- [SynShapes](https://www.kaggle.com/datasets/guilloth3b3st/synshapes) Dataset is composed of synthetic images paired with exact edge map annotation; and composed of geometric shapes, with randomness applied to selected parameters, including color, quantity, size, and spatial position. Fixed parameters include the image resolution (1280×720), the total number of images (125), the edge thickness (1 pixel), and the noise type (speckle). The set of geometric primitives comprises: ellipses, circles, rectangles, triangles, regular polygons, and irregular polygons.
-
-Visit [GitHub Page](https://vision-cidis.github.io/SynShapes/) -->
-
 Coming soon
 
 ## Citation

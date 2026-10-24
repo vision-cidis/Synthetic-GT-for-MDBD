@@ -2,9 +2,6 @@
 
 ## Overview
 
-<div style="text-align:center"><img src='static/images/SynShapes_Show.png' width=800>
-</div>
-
 Coming soon
 
 ## Citation

@@ -6,9 +6,9 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title -->
-  <meta name="title" content="SynShapes: A Synthetic Image-Annotation Dataset for Edge Detection">
+  <meta name="title" content="When Ground Truth Is Not Unique: Rethinking Edge Detection Evaluation with MDBD">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="The first dataset composed of synthetic images paired with exact edge map annotations">
+  <meta name="description" content="">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
   <meta name="keywords" content="Edge Detection, Synthetic data">
   <meta name="robots" content="index, follow">
@@ -16,20 +16,20 @@
   
   <!-- Open Graph / Facebook -->
   <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="SynShapes: A Synthetic Image-Annotation Dataset for Edge Detection">
+  <meta property="og:title" content="When Ground Truth Is Not Unique: Rethinking Edge Detection Evaluation with MDBD">
   <!-- TODO: Same as description above -->
-  <meta property="og:description" content="The first dataset composed of synthetic images paired with exact edge map annotations">
+  <meta property="og:description" content="">
   <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://anonymous.4open.science/w/SynShapes-34F0/">
+  <meta property="og:url" content="">
   <meta property="article:tag" content="Edge Detection">
   <meta property="article:tag" content="Synthetic data">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="SynShapes: A Synthetic Image-Annotation Dataset for Edge Detection">
+  <meta name="twitter:title" content="When Ground Truth Is Not Unique: Rethinking Edge Detection Evaluation with MDBD">
   <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="The first dataset composed of synthetic images paired with exact edge map annotations">
+  <meta name="twitter:description" content="">
   
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>SynShapes</title>
+  <title>When Ground Truth Is Not Unique: Rethinking Edge Detection Evaluation with MDBD</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/datasetIcon2.ico">
@@ -96,15 +96,13 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">SynShapes: A Synthetic Image-Annotation Dataset for Edge Detection</h1>
+            <h1 class="title is-1 publication-title">When Ground Truth Is Not Unique: Rethinking Edge Detection Evaluation with MDBD</h1>
               <div class="is-size-5 publication-authors">
                 <!-- TODO: Replace with your paper authors and their personal links -->
-                <span class="author-block">
+                <!-- <span class="author-block">
                   <a target="_blank">Guillermo A. Castillo</a>,</span>
-                  <span class="author-block">
-                    <a target="_blank">Xavier Soria</a>,</span>
                     <span class="author-block">
-                      <a target="_blank">Angel D. Sappa</a></span>
+                      <a target="_blank">Angel D. Sappa</a></span> -->
               </div>
 
                   <!-- <div class="is-size-5 publication-authors">
@@ -112,7 +110,7 @@
                   </div> -->
 
 
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                         <a href="static/pdfs/VISAPP_2026-SynShapes.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
@@ -120,10 +118,18 @@
                         </span>
                         <span>Paper</span>
                       </a>
+                  </span> -->
+                  <span class="link-block">
+                    <a class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
                   </span>
 
                   <!-- TODO: Replace with your Kaggle repository URL -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://www.kaggle.com/datasets/guilloth3b3st/synshapes" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -131,18 +137,36 @@
                       </span>
                       <span>Download</span>
                     </a>
+                  </span> -->
+                  <span class="link-block">
+                    <a class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Download Dataset</span>
+                    </a>
                   </span>
 
+
                   <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://github.com/vision-cidis/SynShapes" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>GitHub repository</span>
                   </a>
-                </span>
+                </span> -->
+                  <span class="link-block">
+                    <a class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>GitHub repository</span>
+                    </a>
+                  </span>
+
 
             </div>
           </div>
@@ -156,25 +180,20 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-light">About the dataset</h2>
+      <h2 class="title is-light">About this work</h2>
 
       <div class="content">
         <p>
-          SynShapes is the first dataset composed of synthetic images paired with exact edge map annotations. The images are 
-          composed of geometric shapes, with randomness applied to selected parameters, including color, quantity, size,
-          and spatial position. Fixed parameters include the image resolution (1280×720), the total number of images (30K),
-          the edge thickness (1 pixel), and the noise type (speckle). The dataset generation process requires less than two
-          minutes. The set of geometric primitives comprises: ellipses, circles, rectangles, triangles, regular polygons, and irregular polygons.
+          Coming soon
         </p>
 
         <p>
-          Also, in order to reduce the synthetic-to-real domain gap, the Fourier Domain Adaptation (FDA) method<sup>*</sup> was applied.
+          MDBD dataset <sup>*</sup> was used.
         </p>
 
-        <!-- Referencia a M3FD -->
+        <!-- Referencia a MDBD -->
         <p class="dataset-ref">
-          <strong>*</strong> Yang, Yanchao, and Stefano Soatto. "FDA: Fourier Domain Adaptation for Semantic Segmentation." 
-          Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.
+          <strong>*</strong> D. A. M´ely, J. Kim, M. McGill, Y. Guo, and T. Serre, “A systematic comparison between visual cues for boundary detection,” Vision research, vol. 120, 2016
         </p>
       </div>
     </div>
@@ -182,100 +201,8 @@
 </section>
 <!-- End of Info -->
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel" data-slides-to-show="1">
 
-        <!-- ITEM 1 -->
-        <div class="item">
-          <div class="carousel-two-images">
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0068.png" alt="Result 1 - original image" loading="lazy"/>
-              <figcaption>Synthetic Image</figcaption>
-            </figure>
 
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0068_fda.png" alt="Result 1 - FDA result" loading="lazy"/>
-              <figcaption>FDA Synthetic Image</figcaption>
-            </figure>
-
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0068_gt.png" alt="Result 1 - ground truth" loading="lazy"/>
-              <figcaption>Ground-Truth Edges</figcaption>
-            </figure>
-          </div>
-        </div>
-
-        <!-- ITEM 2 -->
-        <div class="item">
-          <div class="carousel-two-images">
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0086.png" alt="Result 2 - original image" loading="lazy"/>
-              <figcaption>Synthetic Image</figcaption>
-            </figure>
-
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0086_fda.png" alt="Result 2 - FDA result" loading="lazy"/>
-              <figcaption>FDA Synthetic Image</figcaption>
-            </figure>
-
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0086_gt.png" alt="Result 2 - ground truth" loading="lazy"/>
-              <figcaption>Ground-Truth Edges</figcaption>
-            </figure>
-          </div>
-        </div>
-
-        <!-- ITEM 3 -->
-        <div class="item">
-          <div class="carousel-two-images">
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0119.png" alt="Result 3 - original image" loading="lazy"/>
-              <figcaption>Synthetic Image</figcaption>
-            </figure>
-
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0119_fda.png" alt="Result 3 - FDA result" loading="lazy"/>
-              <figcaption>FDA Synthetic Image</figcaption>
-            </figure>
-
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0119_gt.png" alt="Result 3 - ground truth" loading="lazy"/>
-              <figcaption>Ground-Truth Edges</figcaption>
-            </figure>
-          </div>
-        </div>
-
-        <!-- ITEM 4 -->
-        <div class="item">
-          <div class="carousel-two-images">
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0123.png" alt="Result 4 - original image" loading="lazy"/>
-              <figcaption>Synthetic Image</figcaption>
-            </figure>
-
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0123_fda.png" alt="Result 4 - FDA result" loading="lazy"/>
-              <figcaption>FDA Synthetic Image</figcaption>
-            </figure>
-
-            <figure class="carousel-image-block">
-              <img src="static/images/synshapes_0123_gt.png" alt="Result 4 - ground truth" loading="lazy"/>
-              <figcaption>Ground-Truth Edges</figcaption>
-            </figure>
-            
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End image carousel -->
-
- 
 <!-- Paper poster -->
 <section class="hero is-small is-light">
   <div class="hero-body">
@@ -283,8 +210,8 @@
       <h2 class="title">Paper</h2>
 
       <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/VISAPP_2026-SynShapes.pdf" width="100%" height="550">
-          </iframe>
+      <!-- <iframe  src="static/pdfs/VISAPP_2026-SynShapes.pdf" width="100%" height="550">
+          </iframe> -->
         
       </div>
     </div>
@@ -303,20 +230,10 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <p>If you use the SynShapes dataset, please cite the following paper:</p>
+      <p>If you use the Synthetic GT, please cite the following paper:</p>
       <pre id="bibtex-code">
         <code>
-          @conference{visapp26,
-            author={Guillermo A. Castillo and Xavier Soria and Angel Sappa},
-            title={SynShapes: A Synthetic Image-Annotation Dataset for Edge Detection},
-            booktitle={Proceedings of the 21st International Conference on Computer Vision Theory and Applications - Volume 2: VISAPP},
-            year={2026},
-            pages={794-802},
-            publisher={SciTePress},
-            organization={INSTICC},
-            doi={10.5220/0014632400004084},
-            isbn={978-989-758-804-4},
-            issn={2184-4321},
+          @conference{icprs2027
           }
         </code>
       </pre>

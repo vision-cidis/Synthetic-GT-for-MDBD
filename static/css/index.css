@@ -255,7 +255,9 @@ body {
 
 .results-carousel {
   overflow: hidden;
-  padding: 1rem 0;
+  padding: 1rem ;
+  max-width: 800px;     /* reduce este número si lo quieres aún más pequeño */
+  margin: 0 auto;
 }
 
 .results-carousel .item {
@@ -289,6 +291,37 @@ body {
   margin-top: 1rem;
   font-weight: 500;
 }
+
+/* --- Two images per carousel slide (stacked) --- */
+.results-carousel .carousel-two-images{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;           
+  align-items: center;
+}
+
+/* Make carousel pair images smaller (without distortion) */
+.results-carousel .carousel-two-images img{
+  width: 100%;
+  max-width: 600px;       
+  max-height: 28vh;       
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;        
+}
+
+/* Bloque imagen + título */
+.carousel-image-block{
+  text-align: center;
+}
+
+/* Estilo del título de cada imagen */
+.carousel-image-block figcaption{
+  font-size: 0.85rem;
+  margin-top: 4px;
+  color: #4a4a4a;       /* un gris suave */
+}
+
 
 /* Pagination and Misc Improvements */
 .slider-pagination .slider-page {
@@ -642,11 +675,6 @@ code {
     top: auto;
   }
   
-  .results-carousel .item {
-    margin: 0.5rem;
-    padding: 1rem;
-  }
-  
   .teaser .hero-body {
     padding: 1rem;
   }
@@ -750,4 +778,14 @@ a:focus {
 }
 
 
+.dataset-ref{
+  font-size: 0.80rem;   /* más pequeña (ajusta a 0.75rem si quieres aún más) */
+  line-height: 1.25;
+  opacity: 0.85;        /* opcional: se ve como nota */
+  margin-top: 0.5rem;
+}
+.dataset-ref strong{
+  font-weight: 600;
+  opacity: 0.9;
+}
 
